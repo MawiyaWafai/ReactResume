@@ -1,0 +1,201 @@
+
+.res{
+    position: absolute;
+    padding-top: 8%;
+    left: 100px;
+  }
+  
+  h1{
+    font-size: 3.5vw;
+  }
+  
+  .icons1{
+    font-size: 1.25vw;
+  }
+  
+  .info{
+    margin-left: 1%;
+  }
+  
+  .btn{
+    bottom: -5%;
+    background-color: #B0DFE5;
+    left: 10%;
+    z-index: 1000;
+    position: absolute;
+    border: none;
+  }
+  
+  .preview{
+    padding: 12px 10px;
+    margin: 12px 0;
+  }
+  
+  .stre{
+    margin-bottom: 5%;
+  }
+  
+  .str h4{
+    position: absolute;
+    font-weight: bold;
+    top: 110%;
+    left: 10%;
+    font-size: 2vw;
+  }
+  
+  .str p{
+    font-size: 0.95vw;
+    left: 10%;
+    position: absolute;
+    padding-top: 46%;
+  }
+  
+  .str h3{
+    font-size: 1vw;
+    font-weight: bold;
+    left: 10%;
+    position: absolute;
+    padding-top: 47%;
+  }
+  
+  .skl h4{
+    font-weight: bold;
+    left: 10%;
+    position: absolute;
+    padding-top: 46%;
+    top: 65%;
+    font-size: 2vw;
+    margin-top: 1%;
+  }
+  
+  .sk{
+    padding: 12px 10px;
+    margin-top: 4%;
+  }
+  
+  .skl ul{
+    font-size: 0.95vw;
+    padding-left: 10.5%;
+    position: absolute;
+    padding-top: 42%;
+  }
+  
+  .award h4{
+    left: 9%;
+    font-weight: bold;
+    position: absolute;
+    top: 195%;
+    font-size: 2vw;
+  }
+  
+  .award p{
+    left: 9%;
+    position: absolute;
+    font-size: 0.95vw;
+    top: 185%;
+  }
+  
+  .web{
+    position: absolute;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+  }
+  
+  .exp h4{
+    left: 50%;
+    font-weight: bold;
+    position: absolute;
+    top: 110%;
+    font-size: 2vw;
+  }
+  
+  .ex{
+    padding-bottom: -30%;
+  }
+  
+  .exp p{
+    font-size: 0.95vw;
+    padding-left: 42%;
+    padding-right: 10%;
+    margin-top: 39%;
+  }
+  
+  .edu h4{
+    left: 50%;
+    font-weight: bold;
+    position: absolute;
+    top: 185%;
+    font-size: 2vw;
+  }
+  
+  .ed{
+    padding-bottom: -30%;
+  }
+  
+  .edu p{
+    font-size: 0.95vw;
+    padding-left: 42%;
+    padding-right: 10%;
+    margin-top: 42%;
+  }
+  
+  .cer{
+    padding: 12px 10px;
+    margin: 12px 0;
+  }
+  
+  .cert h4{
+    font-size: 2vw;
+    position: absolute;
+    font-weight: bold;
+    top: 212%;
+    left: 10%;
+  }
+  
+  .cert p{
+    font-size: 0.95vw;
+    left: 10%;
+    position: absolute;
+    padding-top: 45%;
+  }
+  
+  .cert h3{
+    font-size: 1vw;
+    font-weight: bold;
+    left: 10%;
+    position: absolute;
+    padding-top: 45%;
+  }
+  
+  .lang h4{
+    left: 50%;
+    font-weight: bolder;
+    font-size: 2vw;
+    position: absolute;
+    top: 230%;
+  }
+  
+  .lang{
+    padding-top: 54%;
+    margin-right: 2%;
+  }
+  
+  .bar{
+    font-size: 1vw;
+    margin-bottom: 10%;
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .lang, .award, .educate, .skills, .experience, .stre, .cert{
+        display: none;
+    }
+  
+    .bt{
+        position: absolute;
+        left: 22%;
+        bottom: 50%;
+        font-size: 0.75vw;
+        background-color: #7fbcc4;
+    }
+  }
